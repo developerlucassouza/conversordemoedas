@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(imgs/bg-money.jpeg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* main input[type="number"] {
+    margin-bottom: 10px;
+} */
+
+main label {
+    color: white;
+    font-weight: 900;
+}
+
+main select {
+    margin-bottom: 10px;
+}
+
+p#visor {
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px black;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
